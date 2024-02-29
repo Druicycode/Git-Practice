@@ -1,15 +1,14 @@
 body {
     background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    overflow: hidden;
     margin: 0;
+    height: 100vh;
 }
 
 .circle {
     background-color: red;
     border-radius: 50%;
-    width: 100px; /* Adjust the size of the circle as needed */
+    width: 100px;
     height: 100px;
+    position: absolute;
 }
