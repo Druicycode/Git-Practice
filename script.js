@@ -1,13 +1,15 @@
-function moveCircle() {
-    var circle = document.getElementById('movingCircle');
-    var maxX = window.innerWidth - circle.offsetWidth;
-    var maxY = window.innerHeight - circle.offsetHeight;
+document.addEventListener('DOMContentLoaded', function() {
+    function moveCircle() {
+        var circle = document.getElementById('movingCircle');
+        var maxX = window.innerWidth - circle.offsetWidth;
+        var maxY = window.innerHeight - circle.offsetHeight;
 
-    var randomX = Math.floor(Math.random() * maxX);
-    var randomY = Math.floor(Math.random() * maxY);
+        var randomX = Math.floor(Math.random() * maxX);
+        var randomY = Math.floor(Math.random() * maxY);
 
-    circle.style.left = randomX + 'px';
-    circle.style.top = randomY + 'px';
-}
+        circle.style.left = randomX + 'px';
+        circle.style.top = randomY + 'px';
+    }
 
-setInterval(moveCircle, 1);
+    setInterval(moveCircle, 1000);
+});
