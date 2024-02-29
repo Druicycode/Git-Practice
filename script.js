@@ -10,4 +10,4 @@ function moveCircle() {
     circle.style.top = randomY + 'px';
 }
 
-setInterval(moveCircle, 1000);
+setInterval(moveCircle, 1);
