@@ -1,0 +1,15 @@
+body {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.circle {
+    background-color: red;
+    border-radius: 50%;
+    width: 300px; /* Adjust the size of the circle as needed */
+    height: 300px;
+}
