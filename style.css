@@ -8,8 +8,8 @@ body {
 .circle {
     background-image: url('resources/images/patrick.jpg');
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     background-size: cover;
 }
